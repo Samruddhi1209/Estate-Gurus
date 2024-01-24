@@ -1,0 +1,1030 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".rent_image"
+    android:orientation="vertical"
+    android:background="#40403C3C">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="114dp"
+                android:layout_height="45dp"
+                android:layout_gravity="top|start"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="10dp"
+                android:autofillHints="BHK"
+                android:backgroundTint="@color/grey" />
+
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="114dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="10dp"
+                android:autofillHints="TYPE"
+                android:backgroundTint="@color/grey" />
+
+            <Spinner
+                android:id="@+id/spinner3"
+                android:layout_width="114dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="280dp"
+                android:autofillHints="PRICE"
+                android:backgroundTint="@color/grey" />
+        </RelativeLayout>
+        #1
+        <RelativeLayout
+            android:layout_width="390dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginLeft="5dp"
+            android:background="@color/white">
+
+
+            <ImageView
+                android:id="@+id/renthouse1"
+                android:layout_width="197dp"
+                android:layout_height="112dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="207dp"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/renthouse1" />
+
+            <ImageView
+                android:id="@+id/rentkitchen1"
+                android:layout_width="146dp"
+                android:layout_height="116dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="44dp"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/rentkitchen1" />
+
+            <ImageView
+                android:id="@+id/VIEWMORE"
+                android:layout_width="44dp"
+                android:layout_height="21dp"
+                android:layout_alignBottom="@id/renthouse1"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="11dp"
+                android:layout_marginBottom="36dp"
+                app:srcCompat="@drawable/viewmore" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="49dp"
+                android:fontFamily="monospace"
+                android:text="SWATI COMPLEX"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="32dp"
+                android:text="Rs.25,000/Month"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="19dp"
+                android:text="2BHK FLAT"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="9dp"
+                android:text="Swati Complex , Cadbury Junction,Thane West"
+                android:textColor="@color/grey"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="25dp"
+                android:text="1000sq.ft   >Fully Furnished"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+
+
+
+        </RelativeLayout>
+        #2
+        <RelativeLayout
+            android:layout_width="390dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginLeft="5dp"
+            android:background="@color/white">
+
+
+            <ImageView
+                android:id="@+id/renthouse2"
+                android:layout_width="197dp"
+                android:layout_height="112dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="207dp"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/renthouse2" />
+
+            <ImageView
+                android:id="@+id/rentkitchen2"
+                android:layout_width="150dp"
+                android:layout_height="108dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="75dp"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/rentkitchen2" />
+
+            <ImageView
+                android:id="@+id/VIEWMORE1"
+                android:layout_width="44dp"
+                android:layout_height="21dp"
+                android:layout_alignBottom="@id/rentkitchen2"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="11dp"
+                android:layout_marginBottom="36dp"
+                app:srcCompat="@drawable/viewmore" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="49dp"
+                android:text="SM ACUMEN"
+                android:fontFamily="monospace"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="32dp"
+                android:text="Rs.45,000/Month"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="19dp"
+                android:text="3BHK FLAT"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="9dp"
+                android:text="SM Acumen,Sector 27,Kharghar,Navi Mumbai"
+                android:textColor="@color/grey"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="25dp"
+                android:text="1515sq.ft   >Semi-Furnished"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+
+        </RelativeLayout>
+        #3
+        <RelativeLayout
+            android:layout_width="390dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginLeft="5dp"
+            android:background="@color/white">
+
+
+            <ImageView
+                android:id="@+id/renthouse3"
+                android:layout_width="197dp"
+                android:layout_height="112dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="207dp"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/renthouse3" />
+
+            <ImageView
+                android:id="@+id/rentkitchen3"
+                android:layout_width="150dp"
+                android:layout_height="108dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="75dp"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/rentkitchen3" />
+
+            <ImageView
+                android:id="@+id/VIEWMORE2"
+                android:layout_width="44dp"
+                android:layout_height="21dp"
+                android:layout_alignBottom="@id/rentkitchen3"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="11dp"
+                android:layout_marginBottom="36dp"
+                app:srcCompat="@drawable/viewmore" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="49dp"
+                android:text="ARCHANA SOC"
+                android:fontFamily="monospace"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="32dp"
+                android:text="Rs.22,000/Month"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="19dp"
+                android:text="1BHK FLAT"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="9dp"
+                android:text="Archana Society,Naupada,Thane"
+                android:textColor="@color/grey"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="25dp"
+                android:text="700sq.ft   >Furnished"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+
+        </RelativeLayout>
+        #4
+        <RelativeLayout
+            android:layout_width="390dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginLeft="5dp"
+            android:background="@color/white">
+
+
+            <ImageView
+                android:id="@+id/renthouse4"
+                android:layout_width="197dp"
+                android:layout_height="112dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="207dp"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/renthouse4" />
+
+            <ImageView
+                android:id="@+id/rentkitchen4"
+                android:layout_width="150dp"
+                android:layout_height="108dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="55dp"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/rentkitchen4" />
+
+            <ImageView
+                android:id="@+id/VIEWMORE3"
+                android:layout_width="44dp"
+                android:layout_height="21dp"
+                android:layout_alignBottom="@id/rentkitchen4"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="11dp"
+                android:layout_marginBottom="36dp"
+                app:srcCompat="@drawable/viewmore" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="49dp"
+                android:text="BEWISE"
+                android:fontFamily="monospace"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="32dp"
+                android:text="Rs.26,000/Month"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="19dp"
+                android:text="2BHK FLAT"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="9dp"
+                android:text="Codename BeWise,Dhokali,Thane west"
+                android:textColor="@color/grey"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="25dp"
+                android:text="1150sq.ft   >Semi-Furnished"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+
+        </RelativeLayout>
+        #5
+        <RelativeLayout
+            android:layout_width="390dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginLeft="5dp"
+            android:background="@color/white">
+
+
+            <ImageView
+                android:id="@+id/renthouse5"
+                android:layout_width="197dp"
+                android:layout_height="112dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="207dp"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/renthouse5" />
+
+            <ImageView
+                android:id="@+id/rentkitchen5"
+                android:layout_width="150dp"
+                android:layout_height="108dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="55dp"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/rentkitchen5" />
+
+            <ImageView
+                android:id="@+id/VIEWMORE4"
+                android:layout_width="44dp"
+                android:layout_height="21dp"
+                android:layout_alignBottom="@id/rentkitchen5"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="11dp"
+                android:layout_marginBottom="36dp"
+                app:srcCompat="@drawable/viewmore" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="49dp"
+                android:text="RAJESH SOC"
+                android:fontFamily="monospace"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="32dp"
+                android:text="Rs.30,000/Month"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="19dp"
+                android:text="1BHK FLAT"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="9dp"
+                android:text="Panchpakhadi,Thane west"
+                android:textColor="@color/grey"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="25dp"
+                android:text="500sq.ft   >UnFurnished"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+
+        </RelativeLayout>
+        #6
+        <RelativeLayout
+            android:layout_width="390dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginLeft="5dp"
+            android:background="@color/white">
+
+
+            <ImageView
+                android:id="@+id/renthouse6"
+                android:layout_width="197dp"
+                android:layout_height="112dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="207dp"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/renthouse6" />
+
+            <ImageView
+                android:id="@+id/rentkitchen6"
+                android:layout_width="150dp"
+                android:layout_height="108dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="55dp"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/rentkitchen6" />
+
+            <ImageView
+                android:id="@+id/VIEWMORE5"
+                android:layout_width="44dp"
+                android:layout_height="21dp"
+                android:layout_alignBottom="@id/rentkitchen6"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="11dp"
+                android:layout_marginBottom="36dp"
+                app:srcCompat="@drawable/viewmore" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="49dp"
+                android:text="VEDANT"
+                android:fontFamily="monospace"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="32dp"
+                android:text="Rs.35,000/Month"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="19dp"
+                android:text="2BHK FLAT"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="9dp"
+                android:text="Kores Road,Pokhran road 1,Thane west"
+                android:textColor="@color/grey"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="25dp"
+                android:text="1250sq.ft   >Semi-Furnished"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+
+        </RelativeLayout>
+        #7
+        <RelativeLayout
+            android:layout_width="390dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginLeft="5dp"
+            android:background="@color/white">
+
+
+            <ImageView
+                android:id="@+id/renthouse7"
+                android:layout_width="197dp"
+                android:layout_height="112dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="207dp"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/renthouse7" />
+
+            <ImageView
+                android:id="@+id/rentkitchen7"
+                android:layout_width="150dp"
+                android:layout_height="108dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="55dp"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/rentkitchen7" />
+
+            <ImageView
+                android:id="@+id/VIEWMORE6"
+                android:layout_width="44dp"
+                android:layout_height="21dp"
+                android:layout_alignBottom="@id/rentkitchen7"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="11dp"
+                android:layout_marginBottom="36dp"
+                app:srcCompat="@drawable/viewmore" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="49dp"
+                android:text="RAJ CO-OP SOC"
+                android:fontFamily="monospace"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="32dp"
+                android:text="Rs.27,000/Month"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="19dp"
+                android:text="2BHK FLAT"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="9dp"
+                android:text="Ghodbhunder Road,Thane west"
+                android:textColor="@color/grey"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="25dp"
+                android:text="950sq.ft   >Fully-Furnished"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+
+        </RelativeLayout>
+        #8
+        <RelativeLayout
+            android:layout_width="390dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginLeft="5dp"
+            android:background="@color/white">
+
+
+            <ImageView
+                android:id="@+id/renthouse8"
+                android:layout_width="197dp"
+                android:layout_height="112dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="207dp"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/renthouse8" />
+
+            <ImageView
+                android:id="@+id/rentkitchen8"
+                android:layout_width="150dp"
+                android:layout_height="108dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="104dp"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/rentkitchen8" />
+
+            <ImageView
+                android:id="@+id/VIEWMORE7"
+                android:layout_width="44dp"
+                android:layout_height="21dp"
+                android:layout_alignBottom="@id/rentkitchen8"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="11dp"
+                android:layout_marginBottom="36dp"
+                app:srcCompat="@drawable/viewmore" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="49dp"
+                android:text="AMARA"
+                android:fontFamily="monospace"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="32dp"
+                android:text="Rs.25,000/Month"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="19dp"
+                android:text="1.5 BHK FLAT"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="9dp"
+                android:text="Amara Kolshet Industrial Area,kalyan"
+                android:textColor="@color/grey"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="25dp"
+                android:text="1000sq.ft   >Semi-Furnished"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+
+        </RelativeLayout>
+        #9
+        <RelativeLayout
+            android:layout_width="390dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginLeft="5dp"
+            android:background="@color/white">
+
+
+            <ImageView
+                android:id="@+id/renthouse9"
+                android:layout_width="197dp"
+                android:layout_height="112dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="207dp"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/renthouse9" />
+
+            <ImageView
+                android:id="@+id/rentkitchen9"
+                android:layout_width="150dp"
+                android:layout_height="108dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="55dp"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/rentkitchen9" />
+
+            <ImageView
+                android:id="@+id/VIEWMORE8"
+                android:layout_width="44dp"
+                android:layout_height="21dp"
+                android:layout_alignBottom="@id/rentkitchen9"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="11dp"
+                android:layout_marginBottom="36dp"
+                app:srcCompat="@drawable/viewmore" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="49dp"
+                android:text="HIRANANDANI"
+                android:fontFamily="monospace"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="32dp"
+                android:text="Rs.35,000/Month"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="19dp"
+                android:text="1.5BHK FLAT"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="9dp"
+                android:text="Hiranandani Gardens,Powai,Mumbai"
+                android:textColor="@color/grey"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="25dp"
+                android:text="800sq.ft   >Fully-Furnished"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+
+        </RelativeLayout>
+        #10
+        <RelativeLayout
+            android:layout_width="390dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginLeft="5dp"
+            android:background="@color/white">
+
+
+            <ImageView
+                android:id="@+id/renthouse10"
+                android:layout_width="197dp"
+                android:layout_height="112dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="207dp"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/renthouse10" />
+
+            <ImageView
+                android:id="@+id/rentkitchen10"
+                android:layout_width="150dp"
+                android:layout_height="108dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="55dp"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/rentkitchen10" />
+
+            <ImageView
+                android:id="@+id/VIEWMORE9"
+                android:layout_width="44dp"
+                android:layout_height="21dp"
+                android:layout_alignBottom="@id/rentkitchen10"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="11dp"
+                android:layout_marginBottom="36dp"
+                app:srcCompat="@drawable/viewmore" />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="49dp"
+                android:text="Nahar Amriti Sakti"
+                android:fontFamily="monospace"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="32dp"
+                android:text="Rs.55,000/Month"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="19dp"
+                android:text="3BHK FLAT"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="9dp"
+                android:text="Nahar Amrit Sakti,Chandivali,Powai,Mumbai"
+                android:textColor="@color/grey"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="25dp"
+                android:text="1050sq.ft   >Fully-Furnished"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

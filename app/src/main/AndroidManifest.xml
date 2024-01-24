@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.estategurus">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EstateGurus">
+        <activity
+            android:name=".runwal_group_details"
+            android:exported="true" />
+        <activity
+            android:name=".sobha"
+            android:exported="true" />
+        <activity
+            android:name=".indiabulls"
+            android:exported="true" />
+        <activity
+            android:name=".k_raheja_details"
+            android:exported="true" />
+        <activity
+            android:name=".dosti_details"
+            android:exported="true" />
+        <activity
+            android:name=".aadhar_upload"
+            android:exported="true" />
+        <activity
+            android:name=".Aadhar"
+            android:exported="true" />
+        <activity
+            android:name=".sell_page"
+            android:exported="true" />
+        <activity
+            android:name=".Contact_us"
+            android:exported="true" />
+        <activity
+            android:name=".buy_page"
+            android:exported="true" />
+        <activity
+            android:name=".dashboard"
+            android:exported="true" />
+        <activity
+            android:name=".avant"
+            android:exported="true" />
+        <activity
+            android:name=".sunteck"
+            android:exported="true" />
+        <activity
+            android:name=".acme"
+            android:exported="true" />
+        <activity
+            android:name=".regency_sarvam"
+            android:exported="true" />
+        <activity
+            android:name=".rajeshsoc"
+            android:exported="true" />
+        <activity
+            android:name=".bewise"
+            android:exported="true" />
+        <activity
+            android:name=".vedant"
+            android:exported="true" />
+        <activity
+            android:name=".rajsoc"
+            android:exported="true" />
+        <activity
+            android:name=".amara"
+            android:exported="true" />
+        <activity
+            android:name=".naharamriti"
+            android:exported="true" />
+        <activity
+            android:name=".archanasoc"
+            android:exported="true" />
+        <activity
+            android:name=".SMacumen"
+            android:exported="true" />
+        <activity
+            android:name=".swati"
+            android:exported="true" />
+        <activity
+            android:name=".hiranandani_details"
+            android:exported="true" />
+        <activity
+            android:name=".lodha_details"
+            android:exported="true"
+            android:label="@string/title_activity_lodha_details"
+            android:theme="@style/Theme.EstateGurus.NoActionBar" />
+        <activity
+            android:name=".rent_image"
+            android:exported="true" />
+        <activity
+            android:name=".signup"
+            android:exported="true" />
+        <activity
+            android:name=".login"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

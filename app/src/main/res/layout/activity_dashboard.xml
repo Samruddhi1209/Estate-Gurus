@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/home_background"
+    android:orientation="vertical"
+    tools:context=".dashboard">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"/>
+            //android:src="@drawable/menu_icon"
+
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:backgroundTint="@color/card4"
+            android:text="Post Your Property"
+            android:textColor="@color/black"
+            android:textSize="12dp" />
+
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/app_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:fontFamily="brandon_grotesque_black"
+                    android:text="@string/app_name"
+                    android:textColor="@color/black"
+                    android:textSize="24sp" />
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_below="@id/app_name"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@color/white"
+                    android:elevation="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="15dp"
+                        android:text="@string/search_text" />
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="15dp"
+                        android:src="@drawable/search_icon" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="80dp"
+                        android:layout_height="70dp"
+                        android:layout_margin="20dp"
+                        android:elevation="8dp">
+
+                        <ImageButton
+                            android:id="@+id/imageButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:scaleType="fitCenter"
+                            app:srcCompat="@drawable/rent_icons" />
+
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="@string/rent"
+                        android:textAlignment="center" />
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="80dp"
+                        android:layout_height="70dp"
+                        android:layout_margin="20dp"
+                        android:elevation="8dp">
+
+                        <ImageButton
+                            android:id="@+id/imageButton2"
+                            android:layout_width="300dp"
+                            android:layout_height="300dp"
+                            android:layout_alignParentRight="true"
+                            android:scaleType="fitCenter"
+                            app:srcCompat="@drawable/buy_icon" />
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/buy"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="@string/buy"
+                        android:textAlignment="center" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/banner_background_light">
+
+                <LinearLayout
+                    android:id="@+id/featured_background"
+                    android:layout_width="170dp"
+                    android:layout_height="280dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/banner_background"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="50dp"
+                        android:text="@string/new_project"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textSize="28sp" />
+
+                </LinearLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/featured_recycler"
+                    android:layout_width="match_parent"
+                    android:layout_height="280dp"
+                    android:paddingLeft="1dp"
+                    android:layout_toRightOf="@+id/featured_background"
+                    android:background="@color/home_background" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="vertical"
+                android:padding="20dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="brandon_grotesque_black"
+                    android:text="@string/recommended_properties"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:layout_marginTop="1dp"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="146dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/peach_color">
+
+                <TextView
+                    android:id="@+id/regency"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="160dp"
+                    android:textColor="@color/black"
+                    android:text="Regency Sarvam"
+                    android:textStyle="bold"
+                    android:textSize="25dp">
+
+                </TextView>
+
+
+
+                <TextView
+                    android:id="@+id/titwala"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="160dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="16dp"
+                    android:layout_below="@+id/regency"
+                    android:fontFamily="serif-monospace"
+                    android:text="Titwala(E),\nMumbai\n"
+                    android:textSize="15dp">
+
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/imageView26"
+                    android:layout_width="136dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginRight="23350dp"
+                    app:srcCompat="@drawable/regency_sarvam" />
+
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="146dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/peach_color">
+
+                <TextView
+                    android:id="@+id/awant"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="160dp"
+                    android:textColor="@color/black"
+                    android:text="Avant Hillway"
+                    android:textStyle="bold"
+                    android:textSize="25dp">
+
+                </TextView>
+
+
+
+                <TextView
+                    android:id="@+id/t3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="160dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="16dp"
+                    android:layout_below="@+id/awant"
+                    android:fontFamily="serif-monospace"
+                    android:text="Goregaon(W),\nMumbai"
+                    android:textSize="15dp">
+
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/imageView27"
+                    android:layout_width="136dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginRight="23350dp"
+                    android:layout_marginLeft="10dp"
+                    app:srcCompat="@drawable/avant" />
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="146dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/peach_color">
+
+                <TextView
+                    android:id="@+id/acme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="160dp"
+                    android:textColor="@color/black"
+                    android:text="Acme Boulevard"
+                    android:textStyle="bold"
+                    android:textSize="25dp">
+
+                </TextView>
+
+
+
+                <TextView
+                    android:id="@+id/t4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="160dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="16dp"
+                    android:layout_below="@+id/acme"
+                    android:fontFamily="serif-monospace"
+                    android:text="Jogeshwari(E),\nMumbai\n"
+                    android:textSize="15dp">
+
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/imageView28"
+                    android:layout_width="136dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginRight="23350dp"
+                    android:layout_marginLeft="10dp"
+                    app:srcCompat="@drawable/acme" />
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="146dp"
+                android:layout_margin="20dp"
+                android:background="@drawable/peach_color">
+
+                <TextView
+                    android:id="@+id/sunteck"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Sunteck City"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+
+                <TextView
+                    android:id="@+id/t5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/sunteck"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="160dp"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="serif-monospace"
+                    android:text="Goregaon(W),\nMumbai"
+                    android:textColor="@color/black"
+                    android:textSize="15dp">
+
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/imageView29"
+                    android:layout_width="136dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="23350dp"
+                    android:layout_marginBottom="20dp"
+                    app:srcCompat="@drawable/sunteck" />
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

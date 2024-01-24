@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--suppress AndroidDomInspection -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/banner_background"
+    tools:context="net.simplifiedlearning.firebasestorage.aadhar_upload">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="For Proof Identity Upload Your Aadhar Here!!"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginTop="70dp"
+        android:textAlignment="center"
+        android:fontFamily="monospace"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="380dp"
+        android:fontFamily="monospace"
+        android:text="CLICK THE BELOW LINK"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="430dp"
+        android:text="@string/linktoforms"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

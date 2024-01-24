@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "957829620727",
+    "firebase_url": "https://estate-gurus-b284f-default-rtdb.firebaseio.com",
+    "project_id": "estate-gurus-b284f",
+    "storage_bucket": "estate-gurus-b284f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:957829620727:android:092545adf7093da16944f2",
+        "android_client_info": {
+          "package_name": "com.example.estategurus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "957829620727-160ge7k8nt11315hq9tsgug5qm8mo51g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASPJlCQy3b_B_Y-4ypOwe7ewoF1xq25x8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "957829620727-160ge7k8nt11315hq9tsgug5qm8mo51g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
